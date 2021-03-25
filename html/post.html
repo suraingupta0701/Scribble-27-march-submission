@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css2?family=Montez&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles//postlist.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles/post.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="header-items">
+                <p id="scribbler">Scribbler</p>
+                <button id="sign-up"><span class="text-button" onclick="signupfunction()">Sign Up</span></button>
+                <button id="sign-in"><span class="text-button" onclick="signinfunc()">Sign In</span></button>
+                <p id="sub-heading">Explore, Imagine, Create</p>
+            </div>
+        </header>
+        <section id="postpara">
+            <section id="postdetails">
+                <h3 id="headingofpost"></h3>
+                <div id="firstline" >
+                    <p id="authorname"></p><span><button id="editbutton" onclick="wecanedit()">Edit <i class="fa fa-edit"></i></button><button id="savebutton" onclick="saveit()">Save <i class="fa fa-save"></i></button></span>
+                </div>
+                <textarea id="para" rows="16" cols="147" ></textarea>
+            </section>
+            <button id="likebutton" onclick="likeincrement()">  <i class="glyphicon glyphicon-thumbs-up" ></i> <span id="likeorliked" >Like</span></button>
+            <div class="likes">Be the first one to like this!</div>
+            <div class="commentbox">
+                <textarea id="commenthere" rows="4" cols="90" placeholder="Leave a comment . . . "></textarea>
+                <div><button id="commentbutton" style="padding:6px;" onclick="addcomment(commenthere)">Comment</button></div>
+                <div style="font-weight: bold;margin:11px;margin-left: 0px;">All Comments</div>
+                <div id="entercomments"></div>
+            </div>
+
+        </section>
+        <div class="overlay2"></div>
+
+        <div class="overlay"></div>
+        <section id="modalcontainer">
+            <section id="modeloutside" >
+                <div id="modelinside">
+                    <p style="color:grey;font-size:25px;padding-bottom:10px;margin:10px;padding:5px;font-weight: lighter;">Get Started<span id="cross" onclick="crossfunc(modalcontainer)">&times</span></p>
+                    <hr style="margin: 0px;"/>
+                    <form id="formid">
+                        <label class="modallabel">Name</label>
+                        <input class="modalinput" type="text" placeholder="Enter your name" value="" required></input>
+                        <label class="modallabel">Username</label>
+                        <input class="modalinput" type="text" placeholder="Enter your username" value="" required></input>
+                        <label class="modallabel">Password</label>
+                        <input class="modalinput" type="password" placeholder="Enter your password" value="" required></input>
+                        <label class="modallabel">Confirm Password</label>
+                        <input class="modalinput" type="password" placeholder="Re-enter your password" value="" required></input>
+                        <button class="modalbutton">Sign up</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+        <section id="modal2container">
+            <section id="model2outside" >
+                <div id="model2inside">
+                    <p style="color:grey;font-size:25px;padding-bottom:10px;margin:10px;padding:5px;font-weight: lighter;">Welcome Back!<span id="cross2" onclick="crossfunc(modal2container)">&times</span></p>
+                    <hr style="margin: 0px;"/>
+                    <form id="formid2">
+                        <label class="modallabel">Username</label>
+                        <input class="modalinput" type="text" placeholder="Enter your username" value="" required></input>
+                        <label class="modallabel">Password</label>
+                        <input class="modalinput" type="password" placeholder="Enter your password" value="" required></input>
+                        <button class="modalbutton">Sign In</button>
+                        <p id="signinpara">Not a member ? <a id="signinlink" onclick="toggle()">Sign Up</a></p>
+                    </form>
+                </div>
+            </section>
+        </section>
+        <script type="text/javascript" src="../scripts/index.js"></script>
+        <script type="text/javascript" src="../scripts/post.js"></script>
+
+    </body>
+</html>

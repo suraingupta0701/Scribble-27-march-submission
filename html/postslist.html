@@ -1,0 +1,244 @@
+
+  
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/postlist.css"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+    <div id="bg-back">
+        <header>
+            <div class="header-items">
+                <p id="scribbler">Scribbler</p>
+                <button id="sign-up"><span class="text-button" onclick="signupfunction()">Sign Up</span></button>
+                <button id="sign-in"><span class="text-button" onclick="signinfunc()">Sign In</span></button>
+                <p id="sub-heading">Explore, Imagine, Create</p>
+            </div>
+        </header>
+   
+    <div id="postcontainer">
+
+       
+        <div class="postlist" id=1>
+            <div class="nameinpost">
+                <p id="name1">Srishti Gupta</p>
+            </div>
+
+            <div class="postcontent">
+                <div>
+                    <p class="heading" id="h1">‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+                    <span>
+                        <i class="material-icons"  onclick="areyousure(1)">delete</i>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    </span>
+                </div>
+                <p>Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the .</p>
+                <p id="fullpara1" style="display:none;">var, let and const are the keywords which are used to declare variables in JavaScript. var comes under the ECMAScript 5th edition (aka ES5) whereas let and const fall under the category of ECMAScript 6th edition (aka ES6 and ES2015).Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript.
+                         Though all the three keywords are used for the same purpose, they are different.
+                         ‘let’ vs. ‘const’: Change of value in futur Variables declared using the let keyword can change their values in the future.
+                          Consider the example given below: let iChange = 11;iChange = 12 console.log(iChange);
+                    Output:12On the first line, the variable iChange is declared using the let keyword and is initialized with value 11. When you come down to the next line, the variable iChange is again assigned a new value, which is 12. Changing the values of variables declared using the let keyword is allowed. When, on the last line, you try to print the value of the variable iChange, you correctly get the updated value 12.
+                    Variables declared using the const keyword cannot change their values in future. This is why you must always initialize the variables declared with the const keyword.
+                    const PI = 3.14;PI = 22/7;
+                </p>
+                <span><i class="fa fa-ellipsis-h"  onclick="changepagefromBtoC(h1,name1,fullpara1)" ></i></span>
+
+
+
+
+                <span>
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                </span>
+            </div>
+        </div>
+        <!-- post 1 ends here -->
+
+        <!-- post 2 starts here -->
+        <div class="postlist" id="2">
+            <div class="nameinpost">
+                <p id="name2" >Colby Fayock</p>
+            </div>
+
+            <div class="postcontent" >
+                <div>
+                    <p class="heading" id="h2">What is linting and how can it save you time?</p>
+                    <p id="fullpara2" style="display:none;">One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.So what is linting?
+                        lint, or a linter, is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs. https://en.wikipedia.org/wiki/Lint(software)Simply put, a linter is a tool that programmatically scans your code with the goal of finding issues that can lead to bugs or inconsistencies with code health and style. Some can even help fix them for you!
+                        We’re declaring the constant test twice, which our javascript engine won’t be happy about. With the proper linter settings and watch configuration, instead of getting caught later as an error when the code runs, you’ll immediately get an error through your linter running in the background:
+               </p>
+                    <span>
+                        <i class="material-icons" onclick="areyousure(2)">delete</i>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    </span>
+                </div>
+                <p>One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
+                <span>
+                    <i class="fa fa-ellipsis-h"  onclick="changepagefromBtoC(h2,name2,fullpara2)" ></i>
+                </span>
+            </div>
+        </div>
+        <!-- post 2 ends here -->
+
+        <!-- post 3 starts here -->
+        <div class="postlist" id="3">
+            <div class="nameinpost">
+                <p id="name3" >Yazeed Bzadough</p>
+            </div>
+
+            <div class="postcontent">
+                <div>
+                    <p class="heading" id="h3">How to Get More Views on Your Tech Blog</p>
+                    <p id="fullpara3" style="display:none;">Focus on the tech, not the blog. If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.
+                        cat-doesnt-always-blogAnd why not? Just a few benefits include You build a portfolio of content. You retain knowledge and benefit others by teaching.
+                        You build an audience and create content tailored to their tastes. Finding a job becomes easier.
+                        Companies begin applying to you! Most of us get recruiter emails, but top tech names receive actual job offers.
+                        100k-cat-big Anyone Can Do It's never been easier to create content. Today's tools allow anyone with an internet connection to hop on stage and share their insights.
+                        And like everything in life, this has tradeoffs.✅ Content creators are empowered. Positive ❌ It's now more difficult to stand out. This, ironically, could make content creators feel less empowered.
+                        
+                        
+               </p>
+                    <span>
+                        <i class="material-icons" onclick="areyousure(3)">delete</i>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    </span>
+                </div>
+                <p>If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars.</p>
+                <span>
+                    <i class="fa fa-ellipsis-h"  onclick="changepagefromBtoC(h3,name3,fullpara3)"  ></i>
+
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                </span>
+            </div>
+        </div>
+        <!-- post 3 ends here -->
+
+        <!-- post 4 starts here -->
+        <div class="postlist" id="4"> 
+            <div class="nameinpost">
+                <p id="name4">Cedd Burge</p>
+                <p id="fullpara4" style="display:none;">When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which leads to confusion when discussing the code.This is usually a fertile breeding ground for bugs born out of miscommunication / misunderstanding, and fixing these bugs often introduces new ones, for the same reasons. In the end it becomes code that no one really understands or wants to touch.
+                 Example of undescribable code It is easy to think that code is already a written language. If it looks simple, it should be easy to read, speak and listen to. However, this is not always the case.
+                 Below is a common solution to deciding whether a year is a leap year (divisibleBy(4) and not divisibleBy(100)) or divisibleBy(40 This is not overly complicated code. It calls a functions 3 times, has 3 operators (and, or, not), and has two levels of nesting. However, if you take a second to try and describe the algorithm in words I think you will find it to be a struggle.
+                  Maybe “A year is leap year if it is divisible by 4 and not divisible by 100, or divisible by 400”?
+           </p>
+            </div>
+
+            <div class="postcontent">
+                <div>
+                    <p class="heading" id="h4">How to write easily describable code</p>
+                    <span>
+                        <i class="material-icons" style="margin-top:-42px;" onclick="areyousure(4)">delete</i>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    </span>
+                </div>
+                <p>When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong.</p>
+                <span>
+                    <i class="fa fa-ellipsis-h"  onclick="changepagefromBtoC(h4,name4,fullpara4)" ></i>
+
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                </span>
+            </div>
+        </div>
+        <!-- post 4 ends here -->
+
+        <!-- post 5 starts here -->
+        <div class="postlist" id="5">
+            <div class="nameinpost">
+                <p id="name5">Srishti Gupta</p>
+                <p id="fullpara5" style="display:none;">Node.js treats each JavaScript file as a separate module.
+                    For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module named xyz Let’s take an example to understand this better.
+                    You have a file named circle.js which consists of the logic for calculating the area & the circumference of a circle of a given radius, as given belowcircle.js
+                You can call circle.js file a module named circle.You might be wondering why is there a need to have multiple modules? You could have just written all the code in a single module. Well, it is very important to write modular code. By modular, I mean to say that your code should be independent and should be loosely coupled. Imagine that there’s a large application and you have all your code written in just one place, just one file. Too messy, right?
+                    How does the code written inside a module run Before executing the code written inside a module, Node takes the entire code and encloses it within a function wrapper. The syntax of this function wrapper is:
+                   All code you write in a module resides in the function wrapper! The function wrapper for the circle module will look like the one given below:
+                You can see that there is a function wrapper at the root level encompassing all the code written inside the circle module.
+           The entire code written inside a module is private to the module, unless explicitly stated (exported) otherwise. This is the most significant advantage of having modules in Node.js. Even if you define a global variable in a module using var, let or const keywords, the variables are scoped locally to the module rather than being scoped globally. This happens because each module has a function wrapper of its own and the code written inside one function is local to that function and cannot be accessed outside this function.
+              </p>
+            </div>
+
+            <div class="postcontent" >
+                <div>
+                    <p class="heading" id="h5">Everything you should know about ‘module’ & ‘require’ in Node.jsure(5)"</p>
+                    <span>
+                        <i class="material-icons" onclick="areyousure(5)">delete</i>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    </span>
+                </div>
+                <p>Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node.</p>
+                <span>
+                    <i class="fa fa-ellipsis-h" onclick="changepagefromBtoC(h5,name5,fullpara5)" ></i>
+
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                </span>
+            </div>
+        </div>
+        <!-- post 5 ends here -->
+
+        <!-- TODO: Write code for delete post modal here -->
+
+    </div>
+
+    <div class="overlay"></div>
+    <section id="trashmodalcontainer">
+        <section id="trashmodal">
+            <p style="margin:20px;padding:15px;margin-bottom: 5px;font-family:'Times New Roman', Times, serif;font-weight: lighter;font-size: 18px;">Are you sure you want to delete this post?</p>
+            <button id="yes" onclick="onclickyes()">Yes</button>
+            <button id="no" onclick="onclickno()">No</button>
+        </section>
+
+    </section>
+    <section id="modalcontainer">
+        <section id="modeloutside" >
+            <div id="modelinside">
+                <p style="color:grey;font-size:25px;padding-bottom:10px;margin:10px;padding:5px;font-weight: lighter;">Get Started<span id="cross" onclick="crossfunc(modalcontainer)">&times</span></p>
+                <hr style="margin: 0px;"/>
+                <form id="formid">
+                    <label class="modallabel">Name</label>
+                    <input class="modalinput" type="text" placeholder="Enter your name" value="" required></input>
+                    <label class="modallabel">Username</label>
+                    <input class="modalinput" type="text" placeholder="Enter your username" value="" required></input>
+                    <label class="modallabel">Password</label>
+                    <input class="modalinput" type="password" placeholder="Enter your password" value="" required></input>
+                    <label class="modallabel">Confirm Password</label>
+                    <input class="modalinput" type="password" placeholder="Re-enter your password" value="" required></input>
+                    <button class="modalbutton">Sign up</button>
+                </form>
+            </div>
+        </section>
+    </section>
+    <section id="modal2container">
+        <section id="model2outside" >
+            <div id="model2inside">
+                <p style="color:grey;font-size:25px;padding-bottom:10px;margin:10px;padding:5px;font-weight: lighter;">Welcome Back!<span id="cross2" onclick="crossfunc(modal2container)">&times</span></p>
+                <hr style="margin: 0px;"/>
+                <form id="formid2">
+                    <label class="modallabel">Username</label>
+                    <input class="modalinput" type="text" placeholder="Enter your username" value="" required></input>
+                    <label class="modallabel">Password</label>
+                    <input class="modalinput" type="password" placeholder="Enter your password" value="" required></input>
+                    <button class="modalbutton">Sign In</button>
+                    <p id="signinpara">Not a member ? <a id="signinlink" onclick="toggle()">Sign Up</a></p>
+                </form>
+            </div>
+        </section>
+    </section>
+       
+
+    <script type="text/javascript" src="../scripts/postlist.js"></script>
+    <script type="text/javascript" src="../scripts/index.js"></script>
+
+
+    </div>
+</body>
+
+</html>

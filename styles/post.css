@@ -1,0 +1,81 @@
+
+body{
+    background-color: white;
+}
+#postpara{
+    height:450px;
+    margin:30px;
+}
+#headingofpost{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 22px;
+}
+#firstline{
+    margin:7.5px;
+    margin-left:0px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#editbutton{
+    position:absolute;
+    left:1166px;
+    top:128px;
+    color:white;
+    height:30px;
+    background-color: red;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+#savebutton{
+    position:absolute;
+    left:1166px;
+    top:152px;
+    color:white;
+    height:30px;
+    background-color: red;
+    display:none;
+}
+#likebutton,#commentbutton{
+    color:white;
+    height:30px;
+    background-color: red;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.overlay2 {
+    position: absolute;
+    top: 204px;
+    left: 38px;
+    height: 286px;
+    width: 89%;
+    background-color: rgba(0, 0, 0, 0);
+}
+  #para{
+      border:none;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #authorname{
+      font-weight: bolder;
+  }
+  .likes{
+      margin-top: 14px;
+      color:grey;
+      margin-bottom: 14px;
+  }
+  #allcomments{
+    width: 61%;
+    border: solid;
+    height: 79px;
+    border-width: 18px;
+    border-color: lightgrey;
+    overflow: auto;
+
+  }
+  .modalinput{
+      width:353px;
+  }
